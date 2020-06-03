@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\adeli\\Desktop\\Lets Eat beckend\\API\\API.csproj": {}
+    "C:\\Users\\adeli\\Desktop\\Github\\lets-eat-backend\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\adeli\\Desktop\\Lets Eat beckend\\API\\API.csproj": {
+    "C:\\Users\\adeli\\Desktop\\Github\\lets-eat-backend\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\adeli\\Desktop\\Lets Eat beckend\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\adeli\\Desktop\\Github\\lets-eat-backend\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\adeli\\Desktop\\Lets Eat beckend\\API\\API.csproj",
+        "projectPath": "C:\\Users\\adeli\\Desktop\\Github\\lets-eat-backend\\API\\API.csproj",
         "packagesPath": "C:\\Users\\adeli\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\adeli\\Desktop\\Lets Eat beckend\\API\\obj\\",
+        "outputPath": "C:\\Users\\adeli\\Desktop\\Github\\lets-eat-backend\\API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

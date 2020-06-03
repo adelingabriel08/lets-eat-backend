@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Text.Json;
 using Lets_Eat_beckend.Models;
 using Microsoft.AspNetCore.Mvc;
 
@@ -13,14 +14,15 @@ namespace Lets_Eat_beckend.Controllers
         public static List<Order> Orders = new List<Order>();
         public static Order CurrentOrder;
         [HttpPost]
-        public void CreateoOrderrAddItemsToOrder([FromBody] MenuItemOrder item)
+        public void CreateoOrderrAddItemsToOrder(MenuItemOrder item)
         {
             if(CurrentOrder == null)
                 CurrentOrder = new Order();
+            Console.WriteLine(JsonSerializer.Serialize(item));
             CurrentOrder.MenuItemsOrder.Add(item);
         }
         [HttpGet]
-        [Route("/orders/finish")]
+        [Route("/order/finish")]
         public Order FinishOrderAndGet()
         {
             var order = CurrentOrder;

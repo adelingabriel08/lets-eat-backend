@@ -31,7 +31,10 @@ namespace Lets_Eat_beckend
                 options.AddPolicy(name: MyAllowSpecificOrigins,
                     builder =>
                     {
-                        builder.WithOrigins("http://localhost:3000");
+                        //builder.WithOrigins("http://localhost:3000");
+                        builder.AllowAnyOrigin()
+                                       .AllowAnyMethod()
+                                       .AllowAnyHeader();
                     });
             });
             services.AddControllers();
